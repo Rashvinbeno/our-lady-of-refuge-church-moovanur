@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Our Lady of Refuge Church - A place of worship and community.">
+  <title>Our Lady of Refuge Church</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link external CSS -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f4f4f4 url('bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+    header {
+      background: rgba(0, 80, 158, 0.9);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 5px;
+    }
+    header h2 {
+      font-size: 20px;
+      font-weight: lighter;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      background: rgba(255, 255, 255, 0.6);
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+    nav ul li {
+      position: relative;
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #333;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px;
+      transition: background 0.3s;
+      display: block;
+    }
+    nav ul li a:hover {
+      background: #007BFF;
+      border-radius: 5px;
+      color: white;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background: white;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 5px;
+    }
+    .dropdown-content a {
+      color: #333;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background: #ddd;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    main {
+      text-align: center;
+      padding: 50px 20px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      margin: 20px;
+      flex: 1;
+    }
+    footer {
+      background: rgba(0, 51, 102, 0.9);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: auto;
+    }
+    .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .photo-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>OUR LADY OF REFUGE CHURCH</h1>
+      <h2>Moovanur Kanadu Post, Pudukkottai District- 614 621</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">About Us</a>
+            <div class="dropdown-content">
+              <a href="history.html">History</a>
+              <a href="lopp.html">List of Parish Priests</a>
+              <a href="parishadmi.html">Parish Administration</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">The Parish</a>
+            <div class="dropdown-content">
+              <a href="villages.html">villages</a>
+              <a href="anbiam.html">Anbiam</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Parish Ministries</a>
+            <div class="dropdown-content">
+              <a href="youthforum.html">Youth Forum</a>
+              <a href="choirclub.html">Choir Club</a>
+              <a href="catechism.html">Catechism</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">St. Mary's Institutes</a>
+            <div class="dropdown-content">
+              <a href="history2.html">History</a>
+              <a href="administration.html">Administration</a>
+              <a href="staff.html">Staff</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Substation</a>
+            <div class="dropdown-content">
+              <a href="villagechurch.html">Village Churchs</a>
+              <a href="photo.html">Photo Gallery</a>
+            </div>
+          </li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h2>PHOTO GALLERY</h2>
+    <div class="photo-gallery">
+      <img src="img1.jpg" alt="Photo 4" style="width: 300px; height: 300px;">
+      <img src="img2.jpg" alt="Photo 5"  style="width: 300px; height: 300px;">
+      <img src="img3.jpg" alt="Photo 5"  style="width: 300px; height: 300px;">
+      <img src="img4.jpg" alt="Photo 9"  style="width: 300px; height: 300px;">
+      <img src="img5.jpg" alt="Photo 5"  style="width: 300px; height: 300px;">
+      <img src="img6.jpg" alt="Photo 5"  style="width: 300px; height: 300px;">
+      <img src="img7.jpg" alt="Photo 9"  style="width: 300px; height: 300px;">
+      <img src="img8.jpg" alt="Photo 5"  style="width: 300px; height: 300px;">
+      <img src="img9.jpg" alt="Photo 5"  style="width: 300px; height: 300px;">
+      <img src="c1.jpg" alt="Photo 11"  style="width: 300px; height: 300px;">
+      <img src="c2.jpg" alt="Photo 12"  style="width: 300px; height: 300px;">
+      <img src="c3.jpg" alt="Photo 5"  style="width: 300px; height: 300px;">
+      <img src="c4.jpg" alt="Photo 7"  style="width: 300px; height: 300px;">
+      
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Our Lady of Refuge Church. All rights reserved.</p>
+  </footer>
+</body>
+</html>
